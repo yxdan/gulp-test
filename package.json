@@ -1,0 +1,38 @@
+{
+  "package": {
+    "test": {
+      "name": "qkz-static-staging",
+      "url": "http://oaydsm517.bkt.clouddn.com/qkz-static-staging/qkzhi-1.2.17/",
+      "version": "qkzhi-1.2.17"
+    },
+    "online": {
+      "name": "qkz-static-production",
+      "url": "https://cdn1.qkzhi.com/qkz-static-production/MC-qkzhi-1.2.0/",
+      "version": "MC-qkzhi-1.2.0"
+    },
+    "staticPages": {
+      "name": "qkz-static-production",
+      "url": "https://cdn1.qkzhi.com/qkz-static-production/staticpage-0.2/",
+      "version": "staticpage-0.3"
+    },
+    "img": {
+      "name": "qkz-static-production",
+      "url": "https://cdn1.qkzhi.com/qkz-static-production/MC-qkzhi-0.0.6/",
+      "version": "MC-qkzhi-0.0.6"
+    }
+  },
+  "name": "gulp-img",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-qiniu": "^0.2.4"
+  }
+}

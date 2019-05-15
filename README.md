@@ -5,3 +5,5 @@
 会包错：
 fs.js 中
 const {Math, Object} = primordials;
+mac 中注意权限问题：
+sudo npm install gulp
